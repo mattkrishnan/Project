@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title alt="Contact Us">Contact Us</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/stylenew.css">
+	<link rel="stylesheet" href="css/cameranew.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src='js/camera.js'></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/script.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	</head>
+<body class="index">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<h1><a href="index.html">WorldWide</a><span>Travel Agency</span></h1>
+					<nav alt="Menu">
+						<ul class="sf-menu">
+							<li><a href="index.html" alt="Home">Home</a></li>
+							<li><a href="about.html" alt="About">About</a></li>
+							<li><a href="agents.html" alt="Agents">Our Agents</a></li>
+							<li><a href="packages.html" alt="Packages">Packages</a></li>
+							<li class="current"><a href="contact.html" alt="Contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-2">
+		<div class="container">
+			<div class="row">
+				<div class="grid_5">
+					<form id="contact-form">
+						<div class="contact-form-loader"></div>
+							<header>
+								<h2><span>Contact Us</span></h2>
+							</header>
+							<fieldset>
+									<label class="name">
+										<span class="text">Your Name:</span>
+										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+									</label><br><br>
+									<label class="email">
+										<span class="text">Your E-mail:</span>
+										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
+									</label><br><br>
+									<label class="phone">
+										<span class="text">Subject:</span>
+										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required @JustNumbers" />
+									</label><br><br>
+									<label class="message">
+										<span class="text">Message:</span>
+										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+									</label><br><br>
+								<div class="cont_btn">
+									<a href="#" data-type="reset" class="btn">Clear</a>
+									<a href="#" data-type="submit" class="btn">Send</a>
+								</div><br>
+						</fieldset> 
+					</form>
+				</div>
+				<div class="grid_6 preffix_1">
+					<div>
+						<header>
+							<h2><span>Location</span></h2>
+						</header>
+						<p class="el-1">
+							Office hours are Monday - Friday, 9 AM to 5 PM.
+						</p><br><br>
+					</div>
+					<div class="grid_3 alpha">
+						<div class="address">
+							<p>WorldWide Travel Agency Inc. <br>123 Fake Street, <br>Alexandria, VA 22204</p>
+						</div>
+					</div>
+					<div class="grid_3">
+						<div class="address">
+							<p>Telephone:555 555-5555 <br>FAX:555 555-5551 <br>E-mail: <a href="mailto:fakeemail@ggaggle.com" class="mail">fakeemail@ggaggle.com</a></p><br><br>
+						</div>
+						<div class="googlemapnvcc">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.6541589915073!2d-77.11703104898372!3d38.8403805578077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b3e5688b9fb3%3A0x499efa67beb9d700!2sNorthern+Virginia+Community+College+-+Alexandria+Campus!5e0!3m2!1sen!2sus!4v1448857597305" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h2><span>Call Us</span></h2>
+				<h5>We strive to deliver affordable prices and our agents stand to provide you with personalized, professional support. Individual pricing will vary due to current market values. Please call one of our agents today!</h5>
+				<a href="agents.html" class="btn bd-ra" alt="Agents"></a>
+				<a href="agents.html" class="btn bd-ra" alt="Agents"></a>
+				<a href="agents.html" class="btn bd-ra" alt="Agents"></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom" alt="Author Information">Tushar Balarajan | ITE 170 | Multimedia Software</div>
+</footer>
+<script type="text/javascript">
+	google_api_map_init();
+	function google_api_map_init(){
+		var map;
+		var coordData = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030,12));
+		var markCoord1 = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030));
+		var marker;
+		
+		function initialize() {
+			var mapOptions = {
+				zoom: 14,
+				center: coordData,
+				scrollwheel: false,
+			}
+
+			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+			
+			marker = new google.maps.Marker({
+				map:map,
+				position: markCoord1,
+			});
+
+			google.maps.event.addDomListener(window, 'resize', function() {
+				map.setCenter(coordData);
+				var center = map.getCenter();
+			});
+		}
+
+		google.maps.event.addDomListener(window, "load", initialize); 
+
+	}
+
+</script>
+</body>
+</html>
